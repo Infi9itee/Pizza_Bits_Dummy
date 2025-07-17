@@ -1,5 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-  cout << "I just want to sleep and eat pizza";
+  cout << "I just want to run and eat salad";
 }
