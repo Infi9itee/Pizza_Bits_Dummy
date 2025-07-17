@@ -39,17 +39,19 @@ int main() {
   int t;
   t = 1;
   while(t--) {
+    int example = 145467687;
     int n;
     cin >> n;
-    vector<int64_t> a(n);
-    for(int i = 0; i < n; i++){
-        cin >> a[i];
-    }
-    int c = 0;
-    quick_sort(a, 0, n - 1, c);
-    for(int i = 0; i < n; i++){
-        cout << a[i] <<" ";
-    }
-    cout << "\n" << "Number of interchange: " << c <<"\n";
+    cout << ((1 << n) & example);
+    // vector<int64_t> a(n);
+    // for(int i = 0; i < n; i++){
+    //     cin >> a[i];
+    // }
+    // int c = 0;
+    // quick_sort(a, 0, n - 1, c);
+    // for(int i = 0; i < n; i++){
+    //     cout << a[i] <<" ";
+    // }
+    // cout << "\n" << "Number of interchange: " << c <<"\n";
   }
 }
