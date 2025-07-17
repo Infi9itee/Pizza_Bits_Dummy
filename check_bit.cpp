@@ -39,8 +39,8 @@ int main() {
   int t;
   t = 1;
   while(t--) {
-    int example = 145467687;
-    int n;
+    int64_t example = 145467687;
+    int64_t n;
     cin >> n;
     cout << ((1 << n) & example);
     // vector<int64_t> a(n);
